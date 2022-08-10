@@ -1,0 +1,30 @@
+{
+  "name": "upload-demo",
+  "version": "1.0.0",
+  "description": "a demo for uploader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpf121/upload-demo.git"
+  },
+  "keywords": [
+    "uploade"
+  ],
+  "author": "cpf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpf121/upload-demo/issues"
+  },
+  "homepage": "https://github.com/cpf121/upload-demo#readme",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "koa": "^2.0.0",
+    "koa-body": "^5.0.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^12.0.0"
+  }
+}
